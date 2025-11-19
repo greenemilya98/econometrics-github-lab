@@ -5,3 +5,4 @@ ggplot(df, aes(x, y)) +
   geom_line() +
   theme_minimal()
 write_csv(df, "example_data.csv")
+mean(df$y)
